@@ -28,3 +28,10 @@
 #     for j in range(i):
 #         print("*", end="")
 #     print()
+
+size = 5
+
+for i in range(0,size):
+    print(" " * (size - i), end=" ")
+    print("* " * i, end=" ")
+    print()
